@@ -270,7 +270,7 @@ body {
     color: var(--font-color4);
 }
 
-.div7 {
+.hotel1 {
     /* border: 1px solid green; */
     grid-column: 1 / 9;
     grid-row: 5 / 8;
@@ -849,7 +849,7 @@ font-size: 16px;
         display: none;
     }
 
-    .div7 {
+    .hotel1 {
         display: none;
     }
 
