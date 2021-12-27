@@ -487,13 +487,12 @@ body {
 }
 
 .img_hiwi2 {
-
     width: 350px;
-    border-radius: 5px 40px 5px 40px;
-    -webkit-border-radius: 5px 40px 5px 40px;
-    -moz-border-radius: 5px 40px 5px 40px;
-    -ms-border-radius: 5px 40px 5px 40px;
-    -o-border-radius: 5px 40px 5px 40px;
+    border-radius: 0px 40px 0px 0px;
+    -webkit-border-radius: 0px 40px 0px 0px;
+    -moz-border-radius: 0px 40px 0px 0px;
+    -ms-border-radius: 0px 40px 0px 0px;
+    -o-border-radius: 0px 40px 0px 0px;
 }
 
 .stories div {
@@ -781,34 +780,6 @@ color: var(--font-color);
 }
 
 }
-@media only screen and (max-width:960px){
-    .contacts-logo{
-        display: flex;
-        flex-direction: column;
-    }
-    .contacts{
-        display: flex;
-        flex-direction: column;
-    }
-    .contacts input{
-        position: relative;
-        left: 0;
-        width: 90%;
-        margin: 20px 20px;
-    }
-    .address{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .sequence img{
-      display: none;
-    }
-.sequence:nth-child(5){
-    height: 0px;
-}
-}
-
 @media only screen and (max-width:1052px) {
     .navbar {
         grid-column: 1 / 9;
@@ -837,6 +808,35 @@ color: var(--font-color);
     }
 
 }
+@media only screen and (max-width:960px){
+    .contacts-logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts input{
+        position: relative;
+        left: 0;
+        width: 90%;
+        margin: 20px 20px;
+    }
+    .address{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .sequence img{
+      display: none;
+    }
+.sequence:nth-child(5){
+    height: 0px;
+}
+}
+
+
 
 @media only screen and (max-width: 910px) {
     .navbar {
@@ -949,6 +949,9 @@ color: var(--font-color);
         width: 500px;
         margin: 10px;
 
+    }
+    .logo img{
+        margin-left: 50px;
     }
 }
 @media only screen and (max-width:590px) {
