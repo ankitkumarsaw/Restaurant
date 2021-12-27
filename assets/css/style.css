@@ -5,11 +5,11 @@ html {
 }
 
 :root {
-    --color-background: #242422;
-    --font-color: #a1624c;
+    --color-background: #2b172c;
+    --font-color: #94618e;
     --font-color2: #fff;
-    --font-color3: #867a76;
-    --font-color4: #fbf6e5;
+    --font-color3: #f8eee7;
+    --font-color4: #fadecb;
 }
 
 body {
@@ -43,11 +43,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .logo img {
-    height: 100px;
-    width: 100px;
+    height: 45px;
+    width: 150px;
     cursor: pointer;
 }
 
@@ -151,6 +152,11 @@ body {
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    border-radius: 10px 10px 20px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 10px 20px 20px;
+    -ms-border-radius: 10px 10px 20px 20px;
+    -o-border-radius: 10px 10px 20px 20px;
 }
 
 .head-line button:hover {
@@ -185,6 +191,11 @@ body {
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    border-radius: 10px 10px 20px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 10px 20px 20px;
+    -ms-border-radius: 10px 10px 20px 20px;
+    -o-border-radius: 10px 10px 20px 20px;
 }
 
 .booking-btn button:hover {
@@ -253,6 +264,11 @@ body {
 .img_hiwi {
     height: 100px;
     width: 200px;
+    border-radius: 5px 20px 5px 20px;
+    -webkit-border-radius: 5px 20px 5px 20px;
+    -moz-border-radius: 5px 20px 5px 20px;
+    -ms-border-radius: 5px 20px 5px 20px;
+    -o-border-radius: 5px 20px 5px 20px;
 }
 
 .inlne {
@@ -297,7 +313,7 @@ body {
     position: absolute;
     height: 600px;
     width: 700px;
-    background-color: #2c2a28;
+    background-color: #5a3a56;
     transform: translate(-40px, -40px);
     -webkit-transform: translate(-40px, -40px);
     -moz-transform: translate(-40px, -40px);
@@ -344,18 +360,24 @@ body {
     font-size: 14px;
     padding: 25px 40px;
     background-color: transparent;
-    color: var(--font-color);
+    color: var(--font-color2);
     border: 2px solid var(--font-color);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    border-radius: 10px 10px 20px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 10px 20px 20px;
+    -ms-border-radius: 10px 10px 20px 20px;
+    -o-border-radius: 10px 10px 20px 20px;
 }
 
 .gifts-detail button:hover {
     background-color: var(--font-color);
     color: var(--font-color2);
+    
 }
 
 /* SECTION FIVE END */
@@ -408,10 +430,16 @@ body {
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    border-radius: 10px 10px 20px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 10px 20px 20px;
+    -ms-border-radius: 10px 10px 20px 20px;
+    -o-border-radius: 10px 10px 20px 20px;
 }
 
 .meal-parallax button:hover {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+
     color: var(--font-color2);
 }
 
@@ -424,6 +452,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: minmax(100, auto);
+    
 }
 
 .about-header {
@@ -433,6 +462,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     
 }
 
@@ -459,12 +489,17 @@ body {
 .img_hiwi2 {
 
     width: 350px;
+    border-radius: 5px 40px 5px 40px;
+    -webkit-border-radius: 5px 40px 5px 40px;
+    -moz-border-radius: 5px 40px 5px 40px;
+    -ms-border-radius: 5px 40px 5px 40px;
+    -o-border-radius: 5px 40px 5px 40px;
 }
 
 .stories div {
     width: 350px;
     margin: 0px 30px;
-    background-color: #2c2a28;
+    background-color: #5a3a56;
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -478,7 +513,11 @@ body {
 .itally {
     display: grid;
     align-items: center;
-
+    border-radius: 5px 40px 5px 40px;
+    -webkit-border-radius: 5px 40px 5px 40px;
+    -moz-border-radius: 5px 40px 5px 40px;
+    -ms-border-radius: 5px 40px 5px 40px;
+    -o-border-radius: 5px 40px 5px 40px;
 }
 
 .itally h2 {
@@ -515,7 +554,7 @@ color: var(--font-color);
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(100%);
-    margin: 150px 0px;
+    margin: 120px 0px;
     -webkit-filter: brightness(100%);
     display: flex;
     flex-direction: column;
@@ -552,10 +591,16 @@ color: var(--font-color);
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    border-radius: 10px 10px 20px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 10px 20px 20px;
+    -ms-border-radius: 10px 10px 20px 20px;
+    -o-border-radius: 10px 10px 20px 20px;
 }
 
 .restaurants button:hover {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+
     color: var(--font-color2);
 }
 
@@ -583,6 +628,8 @@ color: var(--font-color);
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 40px;
+    width: 150px;
 }
 .contacts{
     display: flex;
@@ -593,13 +640,18 @@ color: var(--font-color);
 }
 .contacts input{
     margin: 0px 20px;
-height: 40px;
-width: 50%;
-color: var(--font-color);
-background-color: #2c2a28;
-border: 2px solid var(--font-color);
-padding: 6px 20px;
-font-size: 16px;
+    height: 40px;
+    width: 50%;
+    color: var(--font-color);
+    background-color: #5a3a56;
+    border: 2px solid var(--font-color);
+    padding: 6px 20px;
+    font-size: 16px;
+    border-radius: 10px 20px 10px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 20px 10px 20px;
+    -ms-border-radius: 10px 20px 10px 20px;
+    -o-border-radius: 10px 20px 10px 20px;
 }
 
 .contacts-logo button{
@@ -616,7 +668,12 @@ font-size: 16px;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    }
+    border-radius: 10px 20px 10px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 20px 10px 20px;
+    -ms-border-radius: 10px 20px 10px 20px;
+    -o-border-radius: 10px 20px 10px 20px;
+}
     .contacts-logo button:hover{
         background-color: var(--font-color);
         color: var(--font-color2);
@@ -651,6 +708,10 @@ font-size: 16px;
 }
 .sequence a span{
     color: var(--font-color3);
+}
+.sequence img{
+    height: 300px;
+    width: 300px;
 }
 .social-website{
     grid-column: 1 / 9;
@@ -741,11 +802,10 @@ font-size: 16px;
         justify-content: flex-start;
     }
     .sequence img{
-        width: 100%;
-        height: 100%;
+      display: none;
     }
 .sequence:nth-child(5){
-    height: 100px;
+    height: 0px;
 }
 }
 
